@@ -1,4 +1,4 @@
-from sds_parser import PySDSParser
+from ntfs_sds_parser import PySDSParser
 import os
 
 try:

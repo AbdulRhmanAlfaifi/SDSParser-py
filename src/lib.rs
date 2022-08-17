@@ -180,7 +180,7 @@ impl PySDSEntry {
 }
 
 #[pymodule]
-fn sds_parser(_: Python, m: &PyModule) -> PyResult<()> {
+fn ntfs_sds_parser(_: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<PySDSParser>()?;
     Ok(())
 }

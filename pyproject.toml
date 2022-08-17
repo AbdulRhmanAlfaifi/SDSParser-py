@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 
 [project]
-name = "sds_parser"
+name = "ntfs_sds_parser"
 requires-python = ">=3.7"
 classifiers = [
     "Intended Audience :: Developers",

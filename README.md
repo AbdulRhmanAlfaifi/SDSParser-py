@@ -1,9 +1,9 @@
 # SDSParser-py
-This project is Python3 bindings for [Rust](https://github.com/AbdulRhmanAlfaifi/SDSParser-rs) version. SDSParser is NTFS Security Descriptor Stream ($Secure:$SDS) parser.
+This project is Python3 bindings for [Rust](https://github.com/AbdulRhmanAlfaifi/SDSParser-rs) version. SDSParser-py is NTFS Security Descriptor Stream ($Secure:$SDS) parser.
 # Download and Compilation
 ## Download from PyPi
 ```bash
-python3 -m pip install sds_parser
+python3 -m pip install ntfs_sds_parser
 ```
 
 ## Download wheels
@@ -22,7 +22,7 @@ python3 -m pip install .
 ## Usage
 This is a simple script to parse `samples/sds_sample_record`:
 ```python
-from sds_parser import PySDSParser
+from ntfs_sds_parser import PySDSParser
 import os
 
 try:

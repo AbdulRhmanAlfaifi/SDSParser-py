@@ -1,4 +1,4 @@
-from sds_parser import PySDSParser
+from ntfs_sds_parser import PySDSParser
 import os
 try:
     parser = PySDSParser(f"{os.path.dirname(__file__)}/../samples/sds_sample_record")
