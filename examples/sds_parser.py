@@ -4,7 +4,7 @@ import sys
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='NTFS Security Descriptor Stream ($Secure:$SDS) parser - Developded by AbdulRhman Alfaifi')
-    parser.add_argument("SDS_FILE",help='$Secure:$SDS file path')
+    parser.add_argument("SDS_FILE",help='NTFS Security Descriptor Stream ($Secure:$SDS) file path')
     parser.add_argument("-o","--output",help='The file path to write the output to (default: stdout)')
 
     args = parser.parse_args()
