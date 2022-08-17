@@ -18,7 +18,7 @@ You can also download wheels files from release section and install it using `py
 git clone https://github.com/AbdulRhmanAlfaifi/SDSParser-py
 cd SDSParser-py
 python3 -m pip install .
-```
+``` 
 ## Usage
 This is a simple script to parse `samples/sds_sample_record`:
 ```python
