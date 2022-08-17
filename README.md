@@ -5,6 +5,8 @@ This project is Python3 bindings for [Rust](https://github.com/AbdulRhmanAlfaifi
 ```bash
 python3 -m pip install sds_parser
 ```
+## Download wheels
+You can also download wheels files from release section and install it using `python3 -m pip install <WHEEL_FILE>`
 ## Compile from Source
 1. Install [Rustlang](https://www.rust-lang.org/tools/install)
 2. Install [Python (>=3.7)](https://www.python.org/)
