@@ -1,0 +1,22 @@
+[package]
+name = "sds_parser_py"
+version = "0.1.0"
+edition = "2021"
+description = "Python bindings for https://github.com/AbdulRhmanAlfaifi/SDSParser-rs"
+homepage = "https://github.com/AbdulRhmanAlfaifi/SDSParser-py"
+repository = "https://github.com/AbdulRhmanAlfaifi/SDSParser-py"
+authors = ["AbdulRhman Alfaifi <@A__ALFAIFI>"]
+keywords = ["DFIR", "forensics", "$sds", "ntfs"]
+license = "MIT or Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "sds_parser"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.5", features = ["extension-module"] }
+sds_parser = { git = "https://github.com/AbdulRhmanAlfaifi/SDSParser-rs" }
+serde = "1.0.143"
+serde_json = "1.0.83"
+winstructs = { git = "https://github.com/AbdulRhmanAlfaifi/winstructs" }
